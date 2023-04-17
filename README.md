@@ -1,4 +1,4 @@
-### (It is underdevelopment)
+### (It is still under development)
 
 # Getting Started with Create React App
 
