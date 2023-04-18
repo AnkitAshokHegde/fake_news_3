@@ -18,7 +18,8 @@ function AdContent() {
     <Col bg="light">
       <Container>
         {/* <img src={ad}></img> */}
-        <Image src={ad} rounded className='w-100 mt-3 ml-3' />
+        {/* <Image src={ad} rounded className='w-100 mt-3 ml-3' /> */}
+        <Image src={ad} rounded className='mt-3 ml-3' style={{width:'22vh'}} />
       </Container>
 
     </Col>
@@ -28,14 +29,14 @@ function AdContent() {
 function ContentCustom() {
   return (
     <div className='lg m-0 p-3' bg="white">     
-      <Card className='text-dark text-center' style={{height:"h-100"}}>
+      <Card className='text-dark text-center' style={{height:"20rem"}}>
       <Card.Title>
          <Container className='d-flex justify-content-between p-3'>
          <h5>News Title</h5>
          <Badge bg="warning">Blank</Badge>
          </Container>
          </Card.Title>
-        <Card.Body>This is crazy man</Card.Body>
+        <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
        <a href='#' className='text-dark'><p>Read more</p></a>
       </Card>
     </div>
@@ -71,12 +72,12 @@ function HomeContent() {
         <Row>
           <Col xs lg="10" >
             <Row>
-              <Col fluid><ContentCustom /></Col>
-              <Col xs lg="7"><ContentCustom/></Col>
-            </Row>
-            <Row>
               <Col xs lg="7"><ContentCustom /></Col>
               <Col><ContentCustom /></Col>
+            </Row>
+            <Row>
+              <Col fluid><ContentCustom /></Col>
+              <Col xs lg="7"><ContentCustom/></Col>
             </Row>
           </Col>
           <AdContent />

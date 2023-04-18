@@ -10,7 +10,8 @@ function NavCustom() {
   return (
 
     // <Navbar expand="lg" bg="dark" variant="dark" >
-      <Navbar expand="lg" variant="light" style={{backgroundColor:'rgb(249, 168, 37)'}} >
+      // <Navbar expand="lg" variant="light" style={{backgroundColor:'rgb(249, 168, 37)'}} >
+    <Navbar expand="lg" variant="light" style={{backgroundColor:'rgb(255, 143, 0)'}} >
       {/* <Navbar expand="lg" variant="light" style={{backgroundColor:'rgb(226, 96, 5)'}} > */}
       <Container fluid>
         <Nav className="me-auto" variant='light'>          
