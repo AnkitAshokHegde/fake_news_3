@@ -7,17 +7,26 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
 
 function Articles() {
+
+    useEffect(() => {
+        AOS.init(); 
+       }, []);
+
   return (
     <div className='App-body w-100 text-white m-3 p-3' style={{ height: '100vh' }}>
 
             <Container fluid expand="lg">
                 <Row>
-                    {/* News Content */}
+                    {/* Articles Content */}
                     <Col xs lg="10" >
                         <Row>
-                            <Col className='lg m-0 p-3' bg="white">
+                            <Col className='lg m-0 p-3' bg="white" data-aos="fade-up-left" data-aos-duration="1100">
 
                                 <Card className='text-dark text-center' style={{ height: "20rem" }}>
                                     <Card.Title>
@@ -30,7 +39,7 @@ function Articles() {
                                     <a href='#' className='text-dark'><p>Read more</p></a>
                                 </Card>
                             </Col>
-                            <Col className='lg m-0 p-3' bg="white">
+                            <Col className='lg m-0 p-3' bg="white" data-aos="fade-up-right" data-aos-duration="1100">
 
                                 <Card className='text-dark text-center' style={{ height: "20rem" }}>
                                     <Card.Title>
@@ -45,7 +54,7 @@ function Articles() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col className='lg m-0 p-3' bg="white">
+                            <Col className='lg m-0 p-3' bg="white" data-aos="fade-down-left" data-aos-duration="1100">
 
                                 <Card className='text-dark text-center' style={{ height: "20rem" }}>
                                     <Card.Title>
@@ -58,7 +67,7 @@ function Articles() {
                                     <a href='#' className='text-dark'><p>Read more</p></a>
                                 </Card>
                             </Col>
-                            <Col className='lg m-0 p-3' bg="white">
+                            <Col className='lg m-0 p-3' bg="white" data-aos="fade-down-right" data-aos-duration="1100">
 
                                 <Card className='text-dark text-center' style={{ height: "20rem" }}>
                                     <Card.Title>
@@ -76,7 +85,7 @@ function Articles() {
 
                     {/* Advertizement content  */}
 
-                    <Col bg="light">
+                    <Col bg="light" data-aos="zoom-in-left" data-aos-duration="1100">
                         <Container>
                             <Image src={ad} rounded className='mt-3 ml-3' style={{ width: '22vh' }} />
                         </Container>

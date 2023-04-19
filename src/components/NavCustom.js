@@ -1,6 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-// import NavLink from 'react-bootstrap/NavLink';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
