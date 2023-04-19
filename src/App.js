@@ -3,7 +3,7 @@ import './App.css';
 import './components/NavCustom.js';
 
 import Container from 'react-bootstrap/Container';
-import NavCustom from './components/NavCustom.js';
+import {NavCustom} from './components/NavCustom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
@@ -12,13 +12,15 @@ import Image from 'react-bootstrap/Image';
 import Stack from 'react-bootstrap/Stack';
 import Badge from 'react-bootstrap/Badge';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 function AdContent() {
   return (
     <Col bg="light">
       <Container>
-        {/* <img src={ad}></img> */}
-        {/* <Image src={ad} rounded className='w-100 mt-3 ml-3' /> */}
         <Image src={ad} rounded className='mt-3 ml-3' style={{width:'22vh'}} />
       </Container>
 
@@ -43,27 +45,6 @@ function ContentCustom() {
   );
 }
 
-// function CardsCustomoriginal() {
-//   return (
-//     <div className='lg m-0 p-3'>
-//       <Card style={{ width: '25rem' }} className="rounded">
-//         <Card.Img variant="top" src="holder.js/100px180" />
-//         <Card.Body>
-//           <Card.Title className="text-dark d-flex justify-content-between">
-//             <h5>Card Title </h5>
-//             <Badge bg="warning">Blank</Badge>
-//           </Card.Title>
-//           <Card.Text className="text-dark">
-//             Some quick example text to build on the card title and make up the
-//             bulk of the card's content.
-//           </Card.Text>
-//           <Button variant="primary">Go somewhere</Button>
-//         </Card.Body>
-//       </Card>
-//     </div>
-//   );
-// }
-
 function HomeContent() {
   return (
     <div className='m-3 p-3'>
@@ -72,7 +53,7 @@ function HomeContent() {
         <Row>
           <Col xs lg="10" >
             <Row>
-              <Col xs lg="7"><ContentCustom /></Col>
+              <Col xs lg="7" data-aos="fade-up"><ContentCustom /></Col>
               <Col><ContentCustom /></Col>
             </Row>
             <Row>
@@ -87,10 +68,8 @@ function HomeContent() {
   );
 }
 
-
-function App() {
-  return (
-
+function App(){
+  return (    
     <div className="App">
       <header className="App-header">
         <NavCustom />
@@ -100,6 +79,7 @@ function App() {
       </body>
     </div>
   );
+  
 }
 
 export default App;
