@@ -37,3 +37,19 @@ function App() {
 }
 
 export default App;
+
+// // Code snippet for connecting the wallet. 
+// import { Web3ReactProvider } from '@web3-react/core'
+// import { Web3Provider } from "@ethersproject/providers";
+
+// function getLibrary(provider, connector) {
+//   return new Web3Provider(provider);
+// }
+
+// const App => () {
+//   return (
+//     <Web3ReactProvider getLibrary={getLibrary}>
+//       <YourAwesomeComponent />
+//     </Web3ReactProvider>
+//   )
+// }

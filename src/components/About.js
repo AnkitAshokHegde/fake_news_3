@@ -21,7 +21,7 @@ function About() {
   
   return (
     <>
-      <div className='App-body w-100 text-white m-3 p-3' style={{ height: '100vh' }}>
+      <div className='App-body w-100 text-white m-3 p-3'>
 
         <Container fluid expand="lg">
           <Row>

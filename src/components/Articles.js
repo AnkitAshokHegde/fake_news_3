@@ -20,7 +20,7 @@ function Articles() {
        }, []);
 
   return (
-    <div className='App-body w-100 text-white m-3 p-3' style={{ height: '100vh' }}>
+    <div className='App-body w-100 text-white m-3 p-3'>
 
             <Container fluid expand="lg">
                 <Row>
@@ -88,7 +88,7 @@ function Articles() {
 
                     <Col bg="light" data-aos="zoom-in-left" data-aos-duration="1100">
                         <Container>
-                            <Image src={ad} rounded className='mt-3 ml-3' style={{ width: '22vh' }} />
+                        <Image src={ad} rounded className='mt-3 ml-3' style={{ width: '22vh' }} />
                         </Container>
 
                     </Col>

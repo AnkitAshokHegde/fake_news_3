@@ -12,15 +12,16 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
 import './ComponentCss.css';
+import { Button } from 'bootstrap';
 
 
 function HomeContent() {
     useEffect(() => {
         AOS.init();
-       }, []);
+    }, []);
 
     return (
-        <div className='App-body w-100 text-white m-3 p-3' style={{ height: '100vh' }}>
+        <div className='App-body w-100 text-white m-3 p-3'>
 
             <Container fluid expand="lg">
                 <Row>
@@ -82,6 +83,34 @@ function HomeContent() {
                                 </Card>
                             </Col>
                         </Row>
+                        <Row>
+                            <Col xs lg="7" className='lg m-0 p-3' bg="white" data-aos="fade-right" data-aos-duration="1100" >
+
+                                <Card className='text-dark text-center' style={{ height: "20rem" }}>
+                                    <Card.Title>
+                                        <Container className='d-flex justify-content-between p-3'>
+                                            <h5>News Title</h5>
+                                            <Badge bg="warning">Blank</Badge>
+                                        </Container>
+                                    </Card.Title>
+                                    <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
+                                    <a href='#' className='text-dark'><p>Read more</p></a>
+                                </Card>
+                            </Col>
+                            <Col className='lg m-0 p-3' bg="white" data-aos="fade-left" data-aos-duration="1100">
+
+                                <Card className='text-dark text-center' style={{ height: "20rem" }}>
+                                    <Card.Title>
+                                        <Container className='d-flex justify-content-between p-3'>
+                                            <h5>Brief Description</h5>
+                                            <Badge bg="warning">Blank</Badge>
+                                        </Container>
+                                    </Card.Title>
+                                    <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
+                                    <a href='#' className='text-dark'><p>Read more</p></a>
+                                </Card>
+                            </Col>
+                        </Row>
                     </Col>
 
                     {/* Advertizement content  */}
@@ -96,15 +125,15 @@ function HomeContent() {
             </Container>
         </div >
 
-        
+
     );
 }
 
 function Home() {
-    return (                   
-            <div className="App-body w-100 text-white" style={{ height: '100vh' }} >
-                <HomeContent />
-            </div>
+    return (
+        // <div className="App-body w-100 text-white" style={{ height: '100vh' }} >
+        <HomeContent />
+        // </div>
     );
 
 }
