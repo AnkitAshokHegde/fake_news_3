@@ -10,6 +10,7 @@ import Badge from 'react-bootstrap/Badge';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import './ComponentCss.css';
 
 
 function Articles() {

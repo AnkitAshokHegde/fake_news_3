@@ -29,7 +29,7 @@ function Contact() {
               <Row data-aos="fade-down" data-aos-duration="1100">
                 <Col xs ys lg="0" className='lg m-0 p-3' bg="white">
 
-                  <Card className='text-dark text-center' style={{ height: "90rem" }}>
+                  <Card className='text-dark text-center' style={{ height: "90vh" }}>
                     <Card.Title>
                       <Container className='d-flex justify-content-center p-3'>
                         <h5>Contact us</h5>

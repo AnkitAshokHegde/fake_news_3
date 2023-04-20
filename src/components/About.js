@@ -26,7 +26,7 @@ function About() {
         <Container fluid expand="lg">
           <Row>
             {/* About us Content */}
-            <Col xs lg="10" class>
+            <Col xs lg="10" >
               <Row data-aos="fade-up" data-aos-duration="1100">
                 <Col xs ys lg="0" className='lg m-0 p-3' bg="white">
 

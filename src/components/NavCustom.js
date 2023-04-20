@@ -20,7 +20,7 @@ function NavCustom() {
             <NavItem><Link className='nav-link' to="/about-us">About us</Link></NavItem>
             <NavItem><Link className='nav-link' to="/contact-us">Contact us</Link></NavItem>
           </Nav>
-          <Button variant="primary" className='mr-5'>Connect to wallet</Button>{' '}
+          <Button variant="primary" className='mr-3'>Connect to wallet</Button>{' '}
         </Container>
       </Navbar >
 
