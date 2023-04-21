@@ -36,7 +36,7 @@ function Contact() {
                       </Container>
                     </Card.Title>
                     <Card.Body>
-                      <p> Please don't. I was kidding earlier....</p>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptas?</p>
                     </Card.Body>
                   </Card>
                 </Col>

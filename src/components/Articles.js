@@ -33,7 +33,7 @@ function Articles() {
                                     <Card.Title>
                                         <Container className='d-flex justify-content-between p-3'>
                                             <h5>Article</h5>
-                                            <Badge bg="warning">Blank</Badge>
+                                            {/* <Badge bg="warning">Blank</Badge> */}
                                         </Container>
                                     </Card.Title>
                                     <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
@@ -46,7 +46,7 @@ function Articles() {
                                     <Card.Title>
                                         <Container className='d-flex justify-content-between p-3'>
                                             <h5>Article</h5>
-                                            <Badge bg="warning">Blank</Badge>
+                                            <Badge bg="success">True</Badge>
                                         </Container>
                                     </Card.Title>
                                     <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
@@ -61,7 +61,8 @@ function Articles() {
                                     <Card.Title>
                                         <Container className='d-flex justify-content-between p-3'>
                                             <h5>Article</h5>
-                                            <Badge bg="warning">Blank</Badge>
+                                            {/* <Badge bg="warning">Blank</Badge> */}
+                                            <Badge bg="success">True</Badge>
                                         </Container>
                                     </Card.Title>
                                     <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>
@@ -74,7 +75,8 @@ function Articles() {
                                     <Card.Title>
                                         <Container className='d-flex justify-content-between p-3'>
                                             <h5>Article</h5>
-                                            <Badge bg="warning">Blank</Badge>
+                                            {/* <Badge bg="warning">Blank</Badge> */}
+                                            <Badge bg="success">True</Badge>
                                         </Container>
                                     </Card.Title>
                                     <Card.Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </Card.Body>

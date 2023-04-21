@@ -37,7 +37,7 @@ function About() {
                       </Container>
                     </Card.Title>
                     <Card.Body>
-                      <p>Not that much to say man.....</p> 
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, libero?</p> 
                     </Card.Body>
                   </Card>
                 </Col>

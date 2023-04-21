@@ -32,7 +32,7 @@ function Login() {
               <Row className='d-flex align-items-center'>
                 <Col lg="0" className='lg m-0 p-4' bg="white" data-aos="flip-right" data-aos-duration="1100">
 
-                  <Card className='text-dark text-center' style={{ height: "75vh" , width: "75vh"}}>
+                  <Card className='text-dark text-center' style={{ height: "75vh", width: "75vh" }}>
                     <Card.Title>
                       <Container className='d-flex justify-content-center p-3'>
                         <h5>Reviewer Login</h5>
@@ -58,13 +58,15 @@ function Login() {
                         <Button variant="primary" type="submit">
                           Submit
                         </Button>
-                      </Form>
+                      </Form>                      
+                          {/* <small class="align-content-center text-dark mt-3">New here ? <a class="nav-link"
+                            href="register.html.html">Register</a> </small>                         */}
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col lg="0" className='lg m-0 p-3' bg="white"  data-aos="flip-left" data-aos-duration="1100">
+                <Col lg="0" className='lg m-0 p-3' bg="white" data-aos="flip-left" data-aos-duration="1100">
 
-                  <Card className='text-dark text-center' style={{ height: "75vh" , width: "75vh"}}>
+                  <Card className='text-dark text-center' style={{ height: "75vh", width: "75vh" }}>
                     <Card.Title>
                       <Container className='d-flex justify-content-center p-3'>
                         <h5>Publication Login</h5>
@@ -94,7 +96,7 @@ function Login() {
                     </Card.Body>
                   </Card>
                 </Col>
-                
+
               </Row>
             </Col>
 
